@@ -7,7 +7,7 @@ function Impact() {
       <ul>
         <li>15 countries reached</li>
         <li>50,000+ lives touched</li>
-        <li>$2.5M raised this year</li>
+        <li>₹2.5Cr raised this year</li>
         <li>90% of funds go directly to causes</li>
       </ul>
     </section>

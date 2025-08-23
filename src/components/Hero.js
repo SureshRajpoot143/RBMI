@@ -10,7 +10,12 @@ function Hero() {
           <a href="#donate" className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-blue-50 transition-colors inline-block">Make a Donation</a>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/35edaa0c-2c36-45ba-9469-730eeef6e3dc.png" alt="Diverse group of smiling children" className="rounded-lg shadow-xl" />
+          <img 
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/35edaa0c-2c36-45ba-9469-730eeef6e3dc.png" 
+            alt="Diverse group of smiling children" 
+            className="hero-img rounded-lg shadow-xl"
+            style={{ maxWidth: '380px', width: '100%', height: 'auto', objectFit: 'cover', aspectRatio: '4/3' }}
+          />
         </div>
       </div>
     </section>

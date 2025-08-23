@@ -37,18 +37,18 @@ function DonationFormFull() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-blue-600">Make a Donation</h2>
         <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden donation-card">
-          <form className="p-6" onSubmit={handleDonation}>
+          <form className="p-6" onSubmit={handleDonation} autoComplete="off">
             <div className="mb-6">
               <label htmlFor="amount" className="block text-gray-700 font-medium mb-2">Donation Amount ($)</label>
               <div className="grid grid-cols-4 gap-2">
                 {[10, 25, 50, 100].map(amount => (
                   <button type="button" key={amount} className="amount-btn py-2 px-4 bg-blue-100 text-blue-600 rounded hover:bg-blue-200 transition-colors" onClick={() => setDonationAmount(amount)}>
-                    ${amount}
+                    ₹{amount}
                   </button>
                 ))}
               </div>
               <div className="mt-4">
-                <input type="number" value={donationAmount} onChange={(e) => setDonationAmount(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Custom amount" required />
+                <input type="number" min="1" value={donationAmount} onChange={(e) => setDonationAmount(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Custom amount" required />
               </div>
             </div>
             <div className="mb-6">

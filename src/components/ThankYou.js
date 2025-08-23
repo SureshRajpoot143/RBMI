@@ -11,7 +11,7 @@ function ThankYou({ receipt, onBack }) {
             <h3 className="font-semibold text-gray-700 mb-2">Donation Receipt</h3>
             <div className="text-left space-y-2">
               <p><span className="font-medium">Name:</span> <span>{receipt.name}</span></p>
-              <p><span className="font-medium">Amount:</span> <span className="text-green-600">${receipt.amount}</span></p>
+              <p><span className="font-medium">Amount:</span> <span className="text-green-600">₹{receipt.amount}</span></p>
               <p><span className="font-medium">Date:</span> <span>{receipt.date}</span></p>
               <p><span className="font-medium">Payment Method:</span> <span>{receipt.method}</span></p>
             </div>
