@@ -33,14 +33,22 @@ function DonationForm() {
         />
         <input
           type="text"
+<<<<<<< HEAD
           placeholder="Full Name"
+=======
+          placeholder=" Enter your Full Name"
+>>>>>>> cc25e4e (fghjkl;)
           value={name}
           onChange={e => setName(e.target.value)}
           required
         />
         <input
           type="email"
+<<<<<<< HEAD
           placeholder="Email"
+=======
+          placeholder=" Enter your email"
+>>>>>>> cc25e4e (fghjkl;)
           value={email}
           onChange={e => setEmail(e.target.value)}
           required

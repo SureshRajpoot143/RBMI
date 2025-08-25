@@ -53,11 +53,19 @@ function DonationFormFull() {
             </div>
             <div className="mb-6">
               <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Full Name</label>
+<<<<<<< HEAD
               <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="John Doe" required />
             </div>
             <div className="mb-6">
               <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
               <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="john@example.com" required />
+=======
+              <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="enter your name" required />
+            </div>
+            <div className="mb-6">
+              <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
+              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="rbmi@example.com" required />
+>>>>>>> cc25e4e (fghjkl;)
             </div>
             <div className="mb-6">
               <label htmlFor="payment-method" className="block text-gray-700 font-medium mb-2">Payment Method</label>

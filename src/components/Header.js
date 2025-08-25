@@ -5,8 +5,13 @@ function Header() {
     <header className="bg-blue-600 text-white py-6">
       <div className="container mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
+<<<<<<< HEAD
           <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8e75a2e4-f6b4-41bf-9457-16644eb2dd7e.png" alt="SSR WORLD logo" className="header-logo" />
           <h1 className="text-2xl font-bold">SSR WORLD</h1>
+=======
+          <img src="src/ChatGPT Image Aug 25, 2025, 09_56_27 AM.png" alt="RBMI WORLD logo" className="header-logo" />
+          <h1 className="text-2xl font-bold">RBMI WORLD</h1>
+>>>>>>> cc25e4e (fghjkl;)
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-6">

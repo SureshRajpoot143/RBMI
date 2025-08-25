@@ -8,6 +8,7 @@ function ImpactNumbers() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">15</div>
+<<<<<<< HEAD
             <p className="text-blue-100">Countries Reached</p>
           </div>
           <div className="text-center">
@@ -16,6 +17,16 @@ function ImpactNumbers() {
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">$2.5M</div>
+=======
+            <p className="text-blue-100">cities Reached</p>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold mb-2">20K+</div>
+            <p className="text-blue-100">Lives Touched</p>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold mb-2">$1M</div>
+>>>>>>> cc25e4e (fghjkl;)
             <p className="text-blue-100">Raised This Year</p>
           </div>
           <div className="text-center">
