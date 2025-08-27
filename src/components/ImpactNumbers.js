@@ -2,7 +2,7 @@ import React from 'react';
 
 function ImpactNumbers() {
   return (
-    <section id="impact" className="py-16 bg-blue-600 text-white"  style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f137e86e',tranprency:'0.9' }}>
+    <section id="impact" className="py-16 bg-blue-600 text-white"  style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f1eaea1d',tranprency:'0.9' }}>
       <div className="container mx-auto px-4">
         <u><h2 className="text-5xl md:text-3xl font-bold mb-4"> >>Our Impact in Numbers</h2> </u>
         <div className="grid md:grid-cols-4 gap-8">

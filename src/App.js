@@ -5,9 +5,12 @@ import Hero from './components/Hero';
 import AboutSSRWorld from './components/AboutSSRWorld';
 import DonationFormFull from './components/DonationFormFull';
 import ImpactNumbers from './components/ImpactNumbers';
-import Contact from './components/Contact';
+import Register from './components/Register';
 import FooterFull from './components/FooterFull';
 import './App.css';
+
+
+
 
 function App() {
   return (
@@ -17,7 +20,8 @@ function App() {
       <AboutSSRWorld />
       <DonationFormFull />
       <ImpactNumbers />
-      <Contact />
+      < Register />
+     
       <FooterFull />
     </div>
   );

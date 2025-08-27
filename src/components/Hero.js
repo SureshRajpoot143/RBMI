@@ -6,7 +6,7 @@ function Hero() {
     
    
     <section
-    style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f137e86e',tranprency:'0.9' }}
+    style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f1eaea1d',tranprency:'0.9' }}
    
     className=" text-white py-16"
 >

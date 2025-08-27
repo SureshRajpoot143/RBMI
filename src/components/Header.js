@@ -4,11 +4,11 @@ import React from 'react';
 
 function Header() {
   return ( 
-    <section  style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f137e86e',tranprency:'0.9' }}>
+    <section  style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f1eaea1d',tranprency:'0.9' }}>
     <header className="bg-blue-600 text-white py-6">
-      <div className="container mx-auto px-4 flex items-center justify-between">
+      <div className="container mx-auto px-2 flex items-center justify-between">
         
-        <div className="flex items-center space-x-2" >
+        <div  className="flex items-center space-x-2" > 
             <img src="https://www.shutterstock.com/shutterstock/photos/1755099743/display_1500/stock-vector-save-lives-creative-logo-design-for-modern-designer-1755099743.jpg" alt="RBMI WORLD logo" className="header-logo" /> 
             
         
@@ -43,10 +43,10 @@ function Header() {
     </li>
     <li>
       <button 
-        onClick={() => window.location.href = '#contact'} 
+        onClick={() => window.location.href = '#register'} 
         className="hover:text-blue-200 transition-colors"
       >
-        Contact
+        register
       </button>
     </li>
   </ul>

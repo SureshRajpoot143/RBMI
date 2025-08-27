@@ -2,9 +2,9 @@ import React from 'react';
 
 function FooterFull() {
   return (
-        <section  className="py-16 bg-white"   style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f137e86e',tranprency:'0.9' }}> 
+        <section  className="py-16 bg-white"   style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f1eaea1d',tranprency:'0.9' }}> 
       
-    <footer className="bg-gray-900 text-white py-12" style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f3c9f16e',tranprency:'0.9' }}>
+    <footer className="bg-gray-900 text-white py-12" style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f1eaea1d',tranprency:'0.9' }}>
       <div  className="container mx-auto px-4"  >
         <div className="grid md:grid-cols-3 gap-8" >
           <div >
