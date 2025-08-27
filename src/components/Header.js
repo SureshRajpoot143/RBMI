@@ -1,28 +1,60 @@
 import React from 'react';
 
+
+
 function Header() {
-  return (
+  return ( 
+    <section  style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f137e86e',tranprency:'0.9' }}>
     <header className="bg-blue-600 text-white py-6">
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-<<<<<<< HEAD
-          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8e75a2e4-f6b4-41bf-9457-16644eb2dd7e.png" alt="SSR WORLD logo" className="header-logo" />
-          <h1 className="text-2xl font-bold">SSR WORLD</h1>
-=======
-          <img src="src/ChatGPT Image Aug 25, 2025, 09_56_27 AM.png" alt="RBMI WORLD logo" className="header-logo" />
-          <h1 className="text-2xl font-bold">RBMI WORLD</h1>
->>>>>>> cc25e4e (fghjkl;)
+        
+        <div className="flex items-center space-x-2" >
+            <img src="https://www.shutterstock.com/shutterstock/photos/1755099743/display_1500/stock-vector-save-lives-creative-logo-design-for-modern-designer-1755099743.jpg" alt="RBMI WORLD logo" className="header-logo" /> 
+            
+        
+          <h1 className="text-5xl md:text-4xl font-bold mb-4">RBMI WORLD 
+🌎</h1>
         </div>
-        <nav className="hidden md:block">
-          <ul className="flex space-x-6">
-            <li><a href="#about" className="hover:text-blue-200 transition-colors">About</a></li>
-            <li><a href="#donate" className="hover:text-blue-200 transition-colors">Donate</a></li>
-            <li><a href="#impact" className="hover:text-blue-200 transition-colors">Our Impact</a></li>
-            <li><a href="#contact" className="hover:text-blue-200 transition-colors">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+<nav className="hidden md:block">
+  <ul className="flex space-x-6">
+    <li>
+      <button 
+        onClick={() => window.location.href = '#about'} 
+        className="hover:text-blue-200 transition-colors"
+      >
+        About
+      </button>
+    </li>
+    <li>
+      <button 
+        onClick={() => window.location.href = '#donate'} 
+        className="hover:text-blue-200 transition-colors"
+      >
+        Donate
+      </button>
+    </li>
+    <li>
+      <button 
+        onClick={() => window.location.href = '#impact'} 
+        className="hover:text-blue-200 transition-colors"
+      >
+        Our Impact
+      </button>
+    </li>
+    <li>
+      <button 
+        onClick={() => window.location.href = '#contact'} 
+        className="hover:text-blue-200 transition-colors"
+      >
+        Contact
+      </button>
+    </li>
+  </ul>
+</nav>
+</div>
+
     </header>
+    </section>
   );
 }
 

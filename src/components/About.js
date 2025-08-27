@@ -2,14 +2,11 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="about">
-<<<<<<< HEAD
-      <h2>About SSR WORLD</h2>
-      <p>SSR WORLD is dedicated to providing education, healthcare, and support to underprivileged communities worldwide.</p>
-=======
+    
+    <section id="about" className="py-16 bg-gray-100 px-4"
+     >
       <h2>About RBMI WORLD</h2>
-      <p>RBMI WORLD is dedicated to providing education, healthcare, and support to underprivileged communities worldwide.</p>
->>>>>>> cc25e4e (fghjkl;)
+      <p>RBMI WORLD is dedicated to providing education, healthcare, and support to underprivileged communities worldwide.</p> 
     </section>
   );
 }

@@ -22,7 +22,7 @@ function DonationForm() {
 
   return (
     <section id="donate">
-      <h2>Make a Donation</h2>
+      <h2> <b> <i>Make a Donation </i> </b></h2>  
       <form onSubmit={handleSubmit}>
         <input
           type="number"
@@ -33,22 +33,14 @@ function DonationForm() {
         />
         <input
           type="text"
-<<<<<<< HEAD
           placeholder="Full Name"
-=======
-          placeholder=" Enter your Full Name"
->>>>>>> cc25e4e (fghjkl;)
           value={name}
           onChange={e => setName(e.target.value)}
           required
         />
         <input
           type="email"
-<<<<<<< HEAD
           placeholder="Email"
-=======
-          placeholder=" Enter your email"
->>>>>>> cc25e4e (fghjkl;)
           value={email}
           onChange={e => setEmail(e.target.value)}
           required

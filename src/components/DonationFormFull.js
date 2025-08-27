@@ -33,13 +33,13 @@ function DonationFormFull() {
   }
 
   return (
-    <section id="donate" className="py-16 bg-gray-50">
+    <section  style={{maxWidth: '100%', overflow: 'hidden', backgroundColor: '#f137e86e',tranprency:'0.9' }} id="donate" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-blue-600">Make a Donation</h2>
+        <u><i><h1 className="text-5xl md:text-3xl font-bold mb-4">>Make a Donation  </h1></i> </u>
         <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden donation-card">
           <form className="p-6" onSubmit={handleDonation} autoComplete="off">
             <div className="mb-6">
-              <label htmlFor="amount" className="block text-gray-700 font-medium mb-2">Donation Amount ($)</label>
+               <label htmlFor="amount" className="block text-gray-700 font-medium mb-2">Donation Amount ($)</label>
               <div className="grid grid-cols-4 gap-2">
                 {[10, 25, 50, 100].map(amount => (
                   <button type="button" key={amount} className="amount-btn py-2 px-4 bg-blue-100 text-blue-600 rounded hover:bg-blue-200 transition-colors" onClick={() => setDonationAmount(amount)}>
@@ -53,19 +53,11 @@ function DonationFormFull() {
             </div>
             <div className="mb-6">
               <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Full Name</label>
-<<<<<<< HEAD
-              <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="John Doe" required />
-            </div>
-            <div className="mb-6">
-              <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
-              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="john@example.com" required />
-=======
               <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="enter your name" required />
             </div>
             <div className="mb-6">
               <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
               <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="rbmi@example.com" required />
->>>>>>> cc25e4e (fghjkl;)
             </div>
             <div className="mb-6">
               <label htmlFor="payment-method" className="block text-gray-700 font-medium mb-2">Payment Method</label>
